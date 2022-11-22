@@ -12,8 +12,6 @@ import java.io.IOException;
 
 public class HelloApplication extends Application {
 
-    @FXML
-    static ImageView welcomeImage = new ImageView();
     @Override
     public void start(Stage stage) throws IOException {
         setStage(stage);
@@ -28,7 +26,6 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setScene(scene);
-        welcomeImage.fitWidthProperty().bind(scene.widthProperty());
         stage.show();
     }
 
