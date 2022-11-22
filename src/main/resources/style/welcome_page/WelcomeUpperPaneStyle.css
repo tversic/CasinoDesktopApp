@@ -12,7 +12,7 @@
     -fx-background-radius: 61px, 0px;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-font-size: 50px;
+    -fx-font-size: 150%;
     -fx-text-fill: white;
 }
 .button-53:hover {

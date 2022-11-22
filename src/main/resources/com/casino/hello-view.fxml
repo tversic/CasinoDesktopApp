@@ -63,9 +63,9 @@
               </Label>
                </top>
                <center>
-                  <Button fx:id="Gumb" maxWidth="516.0" mnemonicParsing="false" onAction="#loadNewPane" prefHeight="82.0" prefWidth="239.0" styleClass="button-53" stylesheets="@../../style/welcome_page/WelcomeUpperPaneStyle.css" text="ENTER CASINO" textAlignment="CENTER" BorderPane.alignment="CENTER">
+                  <Button fx:id="Gumb" maxWidth="200.0" mnemonicParsing="false" onAction="#loadNewPane" prefHeight="82.0" prefWidth="200.0" styleClass="button-53" stylesheets="@../../style/welcome_page/WelcomeUpperPaneStyle.css" text="ENTER CASINO" textAlignment="CENTER" BorderPane.alignment="CENTER">
                      <font>
-                        <Font size="64.0" />
+                        <Font size="10.0" />
                      </font></Button>
                </center>
             </BorderPane>
