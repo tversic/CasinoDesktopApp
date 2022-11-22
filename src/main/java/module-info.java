@@ -7,4 +7,6 @@ module com.example.casino {
 
     opens com.casino to javafx.fxml;
     exports com.casino;
+    exports com.controllers;
+    opens com.controllers to javafx.fxml;
 }

@@ -1,38 +1,22 @@
 .backgroundClass{
-    -fx-background-color: #4fe54f;
+    -fx-background-image: url("https://geek.hr/jackpot/wp-content/uploads/sites/65/2020/04/online-casino.jpg");
+    -fx-background-size: cover;
 }
 
-
-
-                                                       /* CSS */
 .button-53 {
-    -fx-background-color: #3DD1E7;
-    -fx-box-sizing: border-box;
-    -fx-color: #000000;
-    -fx-display: flex;
-    -fx-font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    -fx-font-weight: 700;
-    -fx-justify-content: center;
-    -fx-position: relative;
-    -fx-text-align: center;
-    -fx-text-decoration: none #000000 solid;
-    -fx-text-decoration-thickness: auto;
-    -fx-width: 100%;
-    -fx-max-width: 460px;
-    -fx-position: relative;
-    -fx-cursor: pointer;
-    -fx-user-select: none;
-    -fx-webkit-user-select: none;
-    -fx-touch-action: manipulation;
+    -fx-background-color: rgba(105, 25, 138, 0.7);
+    -fx-border-radius: 60px;
+    -fx-outer-border: white;
+    -fx-border-color: #966ad3;
+    -fx-background-insets: 0, 61;
+    -fx-background-radius: 61px, 0px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-font-size: 50px;
+    -fx-text-fill: white;
 }
-
 .button-53:hover {
-    -fx-outline: 0;
-    -fx-background-color: #36c0d5;
-}
-
-@media (min-width: 768px) {
-    .button-53 {
-        font-size: 1.25rem;
-    }
+    -fx-background-color: rgba(105, 25, 138, 0.85);
+    -fx-text-fill: white;
+    -fx-highlight-text-fill: red;
 }
