@@ -20,7 +20,9 @@ public class HelloApplication extends Application {
     private static void setStage(Stage stage) throws IOException {
         stage.setTitle("TOMES CASINO");
         stage.getIcons()
-                .add(new Image("https://previews.123rf.com/images/pxlprostudio/pxlprostudio1904/pxlprostudio190404087/121349353-casino-icon-on-background-for-graphic-and-web-design-simple-vector-sign-internet-concept-symbol-for-.jpg"));
+                .add(new Image("https://previews.123rf.com/images/pxlprostudio/pxlprostudio1904/" +
+                        "pxlprostudio190404087/121349353-casino-icon-on-background-for-graphic-and-web" +
+                        "-design-simple-vector-sign-internet-concept-symbol-for-.jpg"));
         stage.setMinWidth(720);
         stage.setMinHeight(480);
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));

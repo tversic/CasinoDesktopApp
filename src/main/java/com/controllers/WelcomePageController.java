@@ -15,24 +15,24 @@ import java.io.IOException;
 
 public class WelcomePageController {
     @FXML
-    AnchorPane ap = new AnchorPane();
-
+    private AnchorPane ap = new AnchorPane();
     private Media media;
     private MediaPlayer mediaPlayer;
     @FXML
-    private MediaView rouletteVideo;
+    private MediaView video;
     @FXML
     void loadNewPane() throws IOException {
         FXMLLoader loader = new FXMLLoader(HelloApplication.class.getResource("firstScreen.fxml"));
         Stage stage = (Stage) ap.getScene().getWindow();
         stage.setScene(new Scene(loader.load()));
+
+
         //media = new Media("file:///C:/Casino/src/main/resources/videos/zero_roulette.mp4");
         media = new Media("https://www.youtube.com/watch?v=pNbMqqlNayg");
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.setAutoPlay(true);
-        rouletteVideo = new MediaView(mediaPlayer);
-        Scene rootScene = stage.getScene();
-        ((Group) rootScene.getRoot()).getChildren().add(rouletteVideo);
+        video = new MediaView(mediaPlayer);
+
         stage.show();
     }
 
